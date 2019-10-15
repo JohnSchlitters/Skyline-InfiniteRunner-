@@ -9,6 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/Library/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
@@ -61,3 +62,4 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+InfiniteRunnerGame/Temp/
