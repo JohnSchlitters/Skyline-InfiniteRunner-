@@ -17,5 +17,15 @@ public class WorldMove : MonoBehaviour
     void Update()
     {
         transform.Translate(0f, 0f,50f * Time.deltaTime * speedModifier);
+        
+        if(Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(-5f,0,0);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(5f,0f,0f);
+        }
     }
 }

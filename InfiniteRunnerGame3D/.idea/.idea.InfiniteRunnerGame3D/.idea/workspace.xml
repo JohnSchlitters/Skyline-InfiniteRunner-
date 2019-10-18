@@ -74,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571175776999</updated>
       <workItem from="1571175781787" duration="686000" />
-      <workItem from="1571352876844" duration="1244000" />
+      <workItem from="1571352876844" duration="2053000" />
     </task>
     <servers />
   </component>
@@ -98,6 +98,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="431" y="155" key="search.everywhere.popup" />
+    <state x="431" y="155" key="search.everywhere.popup/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
