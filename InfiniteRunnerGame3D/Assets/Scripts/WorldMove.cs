@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,7 +26,16 @@ public class WorldMove : MonoBehaviour
 
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(5f,0f,0f);
+            transform.Translate(5f, 0f, 0f);
+        }
+    }
+
+    private void OnCollisionEnter(Collision TerrainCollide)
+    {
+        if (TerrainCollide.gameObject.tag == "Terrain")
+        {
+            print("collided with a map object");
+            Destroy(this.gameObject);
         }
     }
 }

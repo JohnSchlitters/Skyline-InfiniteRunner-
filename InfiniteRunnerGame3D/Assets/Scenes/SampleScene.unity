@@ -37,8 +37,8 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44547176, g: 0.49514037, b: 0.57407093, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -122,6 +122,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a8855fcbeb13caa4fb4c4bd333ffa704, type: 3}
       propertyPath: m_Name
       value: Course2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a8855fcbeb13caa4fb4c4bd333ffa704, type: 3}
+      propertyPath: m_TagString
+      value: Terrain
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a8855fcbeb13caa4fb4c4bd333ffa704, type: 3}
       propertyPath: m_LocalPosition.x
@@ -243,13 +247,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170076733}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.829589, y: -0.25549802, z: -0.04132732, w: 0.49476758}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 53.110004, y: -147.62901, z: -129.25601}
 --- !u!1001 &246117942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -260,6 +264,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b141c28f1698cc84aa5bebed8108617a, type: 3}
       propertyPath: m_Name
       value: Course1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b141c28f1698cc84aa5bebed8108617a, type: 3}
+      propertyPath: m_TagString
+      value: Terrain
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b141c28f1698cc84aa5bebed8108617a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -461,7 +469,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: -1
   m_Mesh: {fileID: 4300000, guid: a8855fcbeb13caa4fb4c4bd333ffa704, type: 3}
 --- !u!54 &1034537948
 Rigidbody:
@@ -497,7 +505,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: -1
   m_Mesh: {fileID: 4300000, guid: b141c28f1698cc84aa5bebed8108617a, type: 3}
 --- !u!54 &1188695139
 Rigidbody:
@@ -796,8 +804,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1725117952}
   m_PrefabAsset: {fileID: 0}
---- !u!136 &1725117955
-CapsuleCollider:
+--- !u!65 &1725117955
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -806,10 +814,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.8856506
-  m_Height: 7.3507195
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 3.468343, y: 3.540821, z: 3.875122}
+  m_Center: {x: 0, y: -1.2704103, z: -1.437561}
 --- !u!54 &1725117956
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -826,24 +833,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!143 &1725117957
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1725117953}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1725117958
 MonoBehaviour:
   m_ObjectHideFlags: 0

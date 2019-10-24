@@ -13,13 +13,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WorldMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrackPlayerScore.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/WorldMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TrackPlayerScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WorldMove.cs" />
       </list>
     </option>
   </component>
@@ -78,6 +77,7 @@
       <workItem from="1571175781787" duration="686000" />
       <workItem from="1571352876844" duration="2053000" />
       <workItem from="1571549664350" duration="1061000" />
+      <workItem from="1571951750322" duration="1235000" />
     </task>
     <servers />
   </component>
