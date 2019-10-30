@@ -76,8 +76,12 @@
       <updated>1571175776999</updated>
       <workItem from="1571175781787" duration="686000" />
       <workItem from="1571352876844" duration="2053000" />
+<<<<<<< Updated upstream
       <workItem from="1571549664350" duration="1061000" />
       <workItem from="1571951750322" duration="1235000" />
+=======
+      <workItem from="1571549664350" duration="1702000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
